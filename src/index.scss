@@ -1,0 +1,53 @@
+@import "../src/blocks/base.scss";
+@import "../src/blocks/app.scss";
+@import "../src/blocks/cell.scss";
+@import "../src/blocks/header.scss";
+@import "../src/blocks/main.scss";
+@import "../src/blocks/settings.scss";
+@import "../src/blocks/table.scss";
+@import "../src/blocks/users.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+p {
+  margin:  0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+}
